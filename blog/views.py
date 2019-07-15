@@ -1,9 +1,9 @@
 from django.shortcuts import render
 from django.utils import timezone
 from .models import Post
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from .forms import PostForm
-from django.shortcuts import redirect
+#from django.shortcuts import redirect
 
 
 
